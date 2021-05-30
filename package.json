@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
-    "build": "portfolio",
+    "build": "modern_portfolio",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
